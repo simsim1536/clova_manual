@@ -42,6 +42,7 @@ HTTP 요청으로 얼굴 인식을 요청할 때 **사전 준비사항**에서 �
 ***
 ## 구현 예제
 
+'
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -116,3 +117,4 @@ public class APIExamFace {
         }
     }
 }
+'
