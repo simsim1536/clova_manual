@@ -48,9 +48,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class APIExamFace {
-
     public static void main(String[] args) {
-
         StringBuffer reqStr = new StringBuffer();
         String clientId = "YOUR_CLIENT_ID";//애플리케이션 클라이언트 아이디값";
         String clientSecret = "YOUR_CLIENT_SECRET";//애플리케이션 클라이언트 시크릿값";
