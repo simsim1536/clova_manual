@@ -38,16 +38,16 @@ CSR API를 사용하려면 개발하려는 애플리케이션을 네이버 개�
 API 사용하기
 ------------------
 1. 다음 구문을 app/build.gradle 파일에 추가한다.
-![Alt text](/Users/kimminjae/Desktop/1.png)
+![Alt text](./img/1.png)
 2. 다음과 같이 Android Manifest파일을 설정한다.
 <pre>
     * 패키지 이름 : manifest 요소의 package 속성 값이 사전 준비사항에서 등록한 안드로이드 앱 패키지 이름과 같아야 합니다.
     
     * 권한 설정 : 사용자의 음성 입력을 마이크를 통해 녹음해야 하고 녹음된 데이터를 서버로 전송해야 합니다. 따라서, android.permission.INTERNET와 android.permission.RECORD_AUDIO에 대한 권한이 반드시 필요합니다.
 </pre>
-![Alt text](/Users/kimminjae/Desktop/2.png)
+![Alt text](./img/2.png)
 3. (선택) proguard-rules.pro 파일에 다음을 추가합니다. 아래 코드는 앱을 보다 가볍고 안전하게 만들어줍니다.
-![Alt text](/Users/kimminjae/Desktop/3.png)
+![Alt text](./img/3.png)
 
 구현 예제
 -------------------
