@@ -49,7 +49,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class APIExamFace {
+public class APIExamFace {{
 
     public static void main(String[] args) {
 
@@ -117,5 +117,5 @@ public class APIExamFace {
             System.out.println(e);
         }
     }
-}
+}}
 </code>
