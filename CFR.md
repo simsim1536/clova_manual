@@ -25,7 +25,7 @@ CFR API를 사용하려면 개발하려는 애플리케이션을 네이버 개�
 
 CFR API는 REST API이며, 얼굴 인식을 수행할 이미지 데이터를 HTTP 통신으로 음성 합성 서버에 전달한다. 음성 합성 서버가 제공하는 REST API의 URI는 다음과 같다.
 
-! [CFR 사용하기 1.png](./img/CFR 사용하기 1.png)
+! [CFR](./img/CFR1.png)
 
 HTTP 요청으로 얼굴 인식을 요청할 때 **사전 준비사항**에서 발급받은 Client ID와 Client Secret 정보를 헤더에 포함시켜야 한다. 또한 요청을 multipart 형식으로 보내야 하며, 메시지의 이름은 image여야 한다. 다음은 유명인 얼굴 인식 API를 호출할 때 보내는 HTTP 요청 메시지의 예이다.
 
