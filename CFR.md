@@ -40,9 +40,9 @@ HTTP 요청으로 얼굴 인식을 요청할 때 **사전 준비사항**에서 �
 위와 같은 방식으로 얼굴 감지 API도 사용할 수 있다.
 
 ***
+
 ## 구현 예제
 
-{tab}
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -117,4 +117,4 @@ public class APIExamFace {
         }
     }
 }
-{tab}
+
