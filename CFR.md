@@ -47,7 +47,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
-// 네이버 얼굴인식 API 예제
 public class APIExamFace {
 
     public static void main(String[] args) {
